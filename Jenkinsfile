@@ -1,5 +1,5 @@
 node {
-  def project = 'virajtest-167408'
+  def project = 'virajgcp'
   def appName = 'hello-node'  
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
   

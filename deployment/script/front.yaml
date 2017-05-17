@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: hello-node
-          image: gcr.io/virajtest-167408/hello-node:20.0
+          image: gcr.io/cloud-solutions-images/hello-node:1.0.0
           ports:
             - protocol: TCP
               name: hello-node
