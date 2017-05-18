@@ -22,5 +22,5 @@ var handleRequest = function (req, res) {
   res.end('Hello Kubernetes on GCP from verna !');
 };
 var www = http.createServer(handleRequest);
-www.listen(process.env.PORT || 8080);
+www.listen(process.env.PORT || 80);
 // [END all]
